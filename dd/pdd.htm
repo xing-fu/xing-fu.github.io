@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>多多爆单视频</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      /* 让按钮在正中间 */
+      #test-button {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        background-color: #3280fc;
+        border-color: #1970fc;
+        width: 80%;
+        height: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="test-button">必须在浏览器打开-点我跳转</button>
+    <audio src="your-music-file.m4a" autoplay loop></audio>
+    
+    <img src="图片.jpg" width="400px" height="267px">
+    
+    <script>
+      // 获取按钮元素
+      var button = document.getElementById('test-button');
+      
+      // 给按钮绑定点击事件处理函数
+      button.onclick = function() {
+        // 跳转到指定链接
+        window.location.href = "pinduoduo://com.xunmeng.pinduoduo/transac_virtual_card_pwd.html?ext=%7B%22feed_scene_id%22%3A666%7D&biz_type=1&scene_id=50&use_hub=1&page_from=602309&hub_type=hub%2Fzb_scene_tab%2Fweak&_ex_campaign=ddlive&pet_id=6&_p_enable_goto_app=1";
+      };
+    </script>
+  </body>
+</html>
